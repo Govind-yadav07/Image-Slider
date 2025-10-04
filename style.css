@@ -1,0 +1,39 @@
+body {
+    background: #eee;
+    font-family: sans-serif;
+}
+.slider-container {
+    width: 400px;
+    margin: 60px auto;
+    background: #fff;
+    padding: 35px 12px;
+    box-shadow: 0 3px 20px #aaa6;
+    border-radius: 10px;
+    text-align: center;
+}
+#slider-image {
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+    background:#eee;
+    margin: 20px 0;
+    border-radius: 8px;
+    transition: all .5s;
+}
+button {
+    padding: 10px 22px;
+    border: none;
+    background: #1976d2;
+    color: #fff;
+    border-radius: 4px;
+    margin: 0 12px;
+    cursor: pointer;
+    font-size: 16px;
+}
+button:hover {
+    background: #125099;
+}
+@media (max-width: 430px) {
+    .slider-container { width: 97%; padding: 15px 1%; }
+    #slider-image { height: 140px; }
+}
